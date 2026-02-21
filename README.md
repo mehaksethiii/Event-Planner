@@ -1,3 +1,8 @@
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # 🧠 FunPlanner
 
 **FunPlanner** is a full-stack event management web application designed for event managers, coordinators, and professional teams. It provides a centralized dashboard to manage clients, vendors, events, internal communication, and productivity tools — all in one place.
@@ -8,7 +13,7 @@
 
 ## 🚀 Features
 
-- ✅ **Authentication** via  
+- ✅ **Authentication** via  JWT and Google OAuth
 - 📋 **Client Management** – Add, edit, and manage clients  
 - 📆 **Event Management** – Create events under specific clients  
 - 🛠️ **Vendor Management** – Assign vendors to events seamlessly  
@@ -111,3 +116,27 @@ Pull requests, suggestions, and feature ideas are welcome! Feel free to fork the
 ## 📄 License
 
 MIT – feel free to use, modify, and build upon this project.
+
+
+
+## 🤝 How to Contribute
+## ⚡ Getting Started
+
+### Clone repository
+
+git clone https://github.com/username/FunPlanner_v2.git
+
+cd Event-Planner
+
+1. Fork the repository
+2. Create a new branch
+git checkout -b feature-name
+
+4. Make your changes
+5. Commit changes
+git commit -m "Added new feature"
+
+6. Push to GitHub
+git push origin feature-name
+
+7. Create Pull Request
