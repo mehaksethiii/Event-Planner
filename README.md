@@ -1,14 +1,18 @@
+![Frontend](https://img.shields.io/badge/Frontend-React-blue)
+![Backend](https://img.shields.io/badge/Backend-Node.js-green)
+![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+![State Management](https://img.shields.io/badge/State-Redux-purple)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # 🧠 FunPlanner
 
 **FunPlanner** is a full-stack event management web application designed for event managers, coordinators, and professional teams. It provides a centralized dashboard to manage clients, vendors, events, internal communication, and productivity tools — all in one place.
+It eliminates the need for multiple tools by integrating everything into one centralized platform.
 
-
-
----
 
 ## 🚀 Features
 
-- ✅ **Authentication** via  
+- ✅ Authentication via JWT and Google OAuth
 - 📋 **Client Management** – Add, edit, and manage clients  
 - 📆 **Event Management** – Create events under specific clients  
 - 🛠️ **Vendor Management** – Assign vendors to events seamlessly  
@@ -66,26 +70,6 @@ FRONTEND_URL=
 
 ---
 
-## 🧪 Local Setup
-
-### 🔧 Backend
-```bash
-cd server
-npm install
-npm start
-```
-
-### 💻 Frontend
-```bash
-cd client
-npm install
-npm run dev
-```
-
-Then open: [http://localhost:5173](http://localhost:5173)
-
----
-
 ## 🛠️ Future Improvements (Open for Contributions)
 
 - ✅ Add automated testing (Jest / Mocha)  
@@ -111,3 +95,41 @@ Pull requests, suggestions, and feature ideas are welcome! Feel free to fork the
 ## 📄 License
 
 MIT – feel free to use, modify, and build upon this project.
+
+
+## 🤝 How to Contribute
+
+⚡ Getting Started
+### Clone repository
+git clone https://github.com/username/FunPlanner_v2.git
+cd Event-Planner
+
+### Setup backend and frontend as mentioned above
+
+## 🧪 Local Setup
+
+### 🔧 Backend
+```bash
+cd server
+npm install
+npm start
+```
+
+### 💻 Frontend
+```bash
+cd client
+npm install
+npm run dev
+```
+
+Then open: [http://localhost:5173](http://localhost:5173)
+
+1. Fork the repository
+2. Create a new branch
+git checkout -b feature-name
+3. Make your changes
+4. Commit changes
+git commit -m "Added new feature"
+5. Push to GitHub
+git push origin feature-name
+6. Create Pull Request
